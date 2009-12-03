@@ -14,8 +14,12 @@ Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{orgname}-%{version}-src
 URL:		http://artfowl.blogspot.com/
 BuildRequires:	QtCore-devel >= %{qt_ver}
 BuildRequires:	QtGui-devel >= %{qt_ver}
+BuildRequires:	QtNetwork-devel
+BuildRequires:	QtSvg-devel
 BuildRequires:	automoc4 >= 0.9.84
 BuildRequires:	cmake >= 2.6.1-2
+BuildRequires:	kde4-kdelibs
+BuildRequires:	kde4-kdelibs-devel
 BuildRequires:	qt4-build >= %{qt_ver}
 BuildRequires:	qt4-qmake >= %{qt_ver}
 BuildRequires:	rpmbuild(macros) >= 1.293
